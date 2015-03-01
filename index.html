@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <div>
+            <div>
+                <span>Select from these</span>
+                <br/>
+                <button id="allow_btn">Allow</button> <button id="disallow_btn">Disallow</button>
+                <ul class="selectable">
+                    <li><input type="checkbox">One</input></li>
+                    <li><input type="checkbox">Two</input></li>
+                    <li><input type="checkbox">Three</input></li>
+                </ul>
+            </div>
+
+            <div>
+                See selected ones here
+                <ul class="allowed">
+                </ul>
+            </div>
+
+            <div>
+                <ul class="dissallowed">
+                </ul>
+            </div>
+        </div>
+
+        <script type="application/javascript" src="index.js"></script>
+    </body>
+</html>
